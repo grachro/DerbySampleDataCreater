@@ -14,7 +14,7 @@ public class CreateSampleDb {
 	public static void main(String[] args) throws SQLException {
 
 		String userHome = System.getProperty("user.home");
-		String dbPath = userHome + "/dbviewer-sampleDb.derby";
+		String dbPath = userHome + "/sampleDb.derby";
 		String jdbc = "jdbc:derby:" + dbPath + ";create=true";
 
 		Connection conn = null;
